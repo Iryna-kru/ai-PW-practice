@@ -3,6 +3,9 @@ name: Regression Tests
 on:
   workflow_dispatch:
 
+env:
+  API_BASE_URL: https://dummyjson.com
+
 jobs:
   regression:
     runs-on: ubuntu-latest

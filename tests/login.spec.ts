@@ -4,7 +4,7 @@ import { ProductPage } from '../pages/ProductPage';
 import users from '../fixtures/users.json';
 import { CartPage } from '../pages/CartPage';
 
-test('User can log in', async ({ page }) => {
+test('User can log in @smoke', async ({ page }) => {
     const loginPage = new LoginPage(page);
     const productPage = new ProductPage(page);
     

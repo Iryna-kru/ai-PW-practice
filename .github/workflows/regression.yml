@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  API_BASE_URL: https://dummyjson.com
+  API_BASE_URL: ${{ secrets.API_BASE_URL }}
 
 jobs:
   regression:
